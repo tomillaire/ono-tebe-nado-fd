@@ -283,14 +283,14 @@
 .about {
   display: grid;
   grid-template-columns: 329px 1fr;
-  gap: 72px;
-  padding: 24px;
+  gap: 60px;
+
 }
 
 .about__column:first-child {
   display: flex;
   justify-content: center;
-  margin-top: 155px;
+  margin-top: 145px;
 }
 
 .about__title {
@@ -307,6 +307,7 @@
   font-size: 20px;
   line-height: 1.2;
   width: 100%;
+  padding-right: 24px;
 }
 
 .footer {
