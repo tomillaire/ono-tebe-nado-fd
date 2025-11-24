@@ -187,7 +187,7 @@
 .lots__card-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 24px 0 24px;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
@@ -268,15 +268,15 @@
 
 .lots__look-more-link {
   display: block;
-  margin: 40px 0 0 40px;
+  margin: 30px 0 0 40px;
   color: #000000;
   text-decoration: underline;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .lots__heading {
   font-size: 40px;
-  margin: 180px 0 27px 40px;
+  margin: 180px 0 27px 64px;
   font-weight: bold;
 }
 
