@@ -79,7 +79,7 @@
 }
 
 .address__text {
-  padding-right: 25px; 
+  padding-right: 25px;
 }
 
 .overlay {
@@ -285,14 +285,13 @@
   grid-template-columns: 329px 1fr;
   gap: 60px;
   margin-bottom: 180px;
-
 }
 
 .about__column:first-child {
   display: flex;
   justify-content: center;
   margin-top: 155px;
-  margin-left: 75px;
+  margin-left: 71px;
 }
 
 .about__title {
@@ -317,6 +316,8 @@
   background-color: #ffffff;
   color: #000000;
   display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
   margin-bottom: 82px;
   justify-content: space-between;
   align-items: flex-start;
