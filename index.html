@@ -13,9 +13,11 @@
     <header class="header">
       <nav class="header__nav">
         <ul class="header__menu">
-          <li><a href="#">главная</a></li>
-          <li><a href="#">посмотреть лоты</a></li>
-          <li><a href="#">об аукционе</a></li>
+          <li>
+            <a href="#" class="header__link header__link_active">главная</a>
+          </li>
+          <li><a href="#" class="header__link">посмотреть лоты</a></li>
+          <li><a href="#" class="header__link">об аукционе</a></li>
         </ul>
       </nav>
 
@@ -34,7 +36,8 @@
 
     <main>
       <section class="cover">
-        <div class="overlay cover__overlay"></div>
+        <div class="overlay"></div>
+
         <div class="cover__content">
           <h1 class="cover__title">
             <span class="aligned-text aligned-text_left letter-spacing-extended"
@@ -63,56 +66,55 @@
         <h2 class="lots__heading">ЛОТЫ</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <article class="card card_type_film">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                <a href="#" class="card-link"
-                  >Фильм режиссёра, который бросил киношколу</a
-                >
-              </h3>
-              <p class="card__text">
-                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-              </p>
-            </article>
+            <a href="#" class="card-link">
+              <article class="card card_type_film">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </article>
+            </a>
           </li>
 
           <li class="lots__card-list-item">
-            <article class="card card_type_book">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                <a href="#" class="card-link"
-                  >Книга, где описан один скучный день из жизни рекламного
-                  агента</a
-                >
-              </h3>
-              <p class="card__text">
-                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-                переходами на древнеанглийский. В ней одновременно
-                рассказывается о 16 июня 1904 года и об истории литературы,
-                начиная с античных времён. И это всё накладывается на эпическую
-                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
-                Джойса?
-              </p>
-            </article>
+            <a href="#" class="card-link">
+              <article class="card card_type_book">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </article>
+            </a>
           </li>
 
           <li class="lots__card-list-item">
-            <article class="card card_type_picture">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                <a href="#" class="card-link"
-                  >Картина, которую повторит даже 5-летний сын маминой
-                  подруги</a
-                >
-              </h3>
-              <p class="card__text">
-                Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                котиков... Сколько бы вы на такое поставили, если бы не знали,
-                что это — одна из революционных работ Кандинского?
-              </p>
-            </article>
+            <a href="#" class="card-link">
+              <article class="card card_type_picture">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </article>
+            </a>
           </li>
         </ul>
         <a href="#" class="lots__look-more-link">посмотреть больше</a>
@@ -121,7 +123,13 @@
       <section class="about">
         <div class="about__column">
           <div class="about__logo">
-            <img src="/images/logo-about.svg" alt="Логотип" />
+            <span class="about__logo-circle">
+              <img
+                src="./images/logo-white.svg"
+                alt="Логотип"
+                class="about__logo-img"
+              />
+            </span>
           </div>
         </div>
         <div class="about__column">
